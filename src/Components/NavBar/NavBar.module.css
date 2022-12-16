@@ -1,0 +1,33 @@
+.menu {
+    background: #2da18e;
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  .link {
+    list-style: none;
+  }
+  
+  .list {
+    font-size: 1.7em;
+  }
+  
+  .link {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .link a {
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    position: relative;
+  }
+  
+

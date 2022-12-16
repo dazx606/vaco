@@ -7,11 +7,9 @@ const NavBar = () => {
         <nav className={styles.menu}>
             <ul className={styles.link}>
                 <NavLink to="/">
-                    <li className={styles.list}>HOME</li>
+                    <li className={styles.list}>My Blog</li>
                 </NavLink>
-                <NavLink to='/Other'>
-                    <li className={styles.list}>MODELS</li>
-                </NavLink>
+                
             </ul>
             <Outlet />
         </nav>
